@@ -1,0 +1,62 @@
+{
+  "name": "retail-pm-api",
+  "version": "1.0.0",
+  "description": "Automated Web services for smart retail",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app",
+    "dev": "NODE_ENV=development nodemon app",
+    "test": "NODE_ENV=test jest",
+    "lint": "eslint --ext .js app/**/*.js",
+    "prettier": "prettier --write app/**/*.js"
+  },
+  "keywords": [
+    "koa2",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/sr-devops/retail-pm-api.git"
+  },
+  "author": "Smart Retail Automation team",
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "ioredis": "^4.17.3",
+    "koa": "^2.9.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-response-time": "^2.1.0",
+    "koa-router": "^9.4.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "require-directory": "^2.1.1",
+    "sequelize": "^6.3.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "editorconfig": "^0.15.3",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "faker": "^5.1.0",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.3.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
+    "standard": "^14.3.4"
+  },
+  "license": "UNLICENSED"
+}

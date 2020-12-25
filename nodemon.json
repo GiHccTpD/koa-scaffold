@@ -1,0 +1,15 @@
+{
+    "verbose": true,
+    "ignore": [
+      "node_modules",
+      "log/*",
+      ".idea/*",
+      ".vscode/*"
+    ],
+    "watch": [
+      "app",
+      "config"
+    ],
+    "ext": "js json yml yaml"
+  }
+  
