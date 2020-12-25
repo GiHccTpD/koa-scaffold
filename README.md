@@ -54,7 +54,7 @@
 │   │   ├── mysql.js
 │   │   ├── redis.js
 │   │   └── redis_key.js            # redis key 用于构造格式统一的redis key
-│   ├── listeners                   # 输出错误目的地文件夹,可以添加其他的输出源比如企业微信等
+│   ├── listeners                   # 输出错误目的地文件夹,可以添加其他的输出源
 │   │   └── logError.js             # 输出到控制台
 │   ├── middlewares                 # 中间件文件夹
 │   │   ├── accessLog.js
