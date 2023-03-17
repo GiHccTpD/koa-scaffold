@@ -29,6 +29,7 @@ const TOKEN_KEY = ''
 
 logger.info(`[env: ${process.env.NODE_ENV}] retail-pm service run on ${port}`)
 app.context.config = config
+
 app
   .use(
     cors({

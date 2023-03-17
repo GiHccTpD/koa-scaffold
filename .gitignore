@@ -3,7 +3,7 @@ node_modules/
 .idea
 user.keystore
 auth
-config/development.js
+# config/development.js
 # config/production.js
 config/test.js
 log/

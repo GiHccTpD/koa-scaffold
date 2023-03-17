@@ -1,3 +1,3 @@
-module.exports = {
-  logLevel: 'debug'
-}
+'use strict'
+
+module.exports = {}

@@ -32,10 +32,12 @@
     }
   },
   "dependencies": {
+    "@koa/cors": "^4.0.0",
     "config": "^3.3.1",
     "ioredis": "^4.17.3",
     "koa": "^2.9.0",
     "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.4",
     "koa-response-time": "^2.1.0",
     "koa-router": "^9.4.0",
     "lodash": "^4.17.20",
