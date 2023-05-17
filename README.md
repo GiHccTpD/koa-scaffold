@@ -107,11 +107,7 @@
 ## 参考
 
 [jest](https://jestjs.io/en/)
-
 [ioredis](https://www.npmjs.com/package/ioredis)
-
 [redis](http://www.redis.cn/)
-
 [sequelize](https://sequelize.org/)
-
 [Koa](https://koajs.com/)
