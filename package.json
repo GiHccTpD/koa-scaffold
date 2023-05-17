@@ -25,6 +25,12 @@
       "eslint --fix"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
   "dependencies": {
     "@koa/cors": "^4.0.0",
     "config": "^3.3.1",
