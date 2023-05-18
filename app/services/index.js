@@ -1,5 +1,5 @@
-'use strict'
+'use strict';
 
 // const Model = require('../models/index')
 
-module.exports = {}
+module.exports = {};

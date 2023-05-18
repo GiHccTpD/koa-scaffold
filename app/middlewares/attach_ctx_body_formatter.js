@@ -1,8 +1,7 @@
-/* eslint-disable camelcase */
-'use strict'
+'use strict';
 
-module.exports = (f) =>
-  async function attachCtxLogger(ctx, next) {
-    ctx.f = f
-    await next()
-  }
+module.exports = f =>
+    async function attachCtxLogger(ctx, next) {
+        ctx.f = f;
+        await next();
+    };

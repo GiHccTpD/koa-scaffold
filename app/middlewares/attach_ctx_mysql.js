@@ -1,7 +1,7 @@
-'use strict'
+'use strict';
 
-module.exports = (model) =>
-  async function attachCtxLogger(ctx, next) {
-    ctx.model = model
-    await next()
-  }
+module.exports = model =>
+    async function attachCtxLogger(ctx, next) {
+        ctx.model = model;
+        await next();
+    };
