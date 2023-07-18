@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://git.code.oa.com/sr-devops/retail-pm-api.git"
+    "url": ""
   },
   "author": "Smart Retail Automation team",
   "lint-staged": {
